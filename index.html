@@ -18,6 +18,14 @@
         }
       </style>
     </noscript>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
     <style>
       #block-mobile-menu,
       #block-mobile-menu-trigger {
@@ -67,18 +75,18 @@
     </script>
     <meta
       name="description"
-      content="Observing, Analysing, Acting - for Global Equity and the Preservation of Livelihoods."
+      content="Development Monitors LLC"
     />
     <link rel="canonical" href="en.html" />
     <link rel="shortlink" href="en.html" />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Observing. Analysing. Acting. | Germanwatch e.V."
+      content="Development Monitors LLC"
     />
     <meta
       property="og:description"
-      content="Observing, Analysing, Acting - for Global Equity and the Preservation of Livelihoods."
+      content="Development Monitors LLC"
     />
     <meta
       property="og:image"
@@ -91,7 +99,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:description"
-      content="Observing, Analysing, Acting - for Global Equity and the Preservation of Livelihoods."
+      content="Development Monitors LLC"
     />
     <meta name="twitter:site" content="@Germanwatch" />
     <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
@@ -108,7 +116,7 @@
     <link rel="alternate" hreflang="fr" href="fr.html" />
     <link rel="alternate" hreflang="es" href="es.html" />
 
-    <title>Observing. Analysing. Acting. | Germanwatch e.V.</title>
+    <title>Development Monitors LLC</title>
     <link
       rel="stylesheet"
       media="all"
@@ -147,7 +155,7 @@
                     class="site-logo d-block"
                   >
                     <img
-                      src="https://www.germanwatch.org/themes/custom/germanwatch/logo.svg"
+                      src="sites/img/logo.png"
                       alt="Home"
                       fetchpriority="high"
                       width="138"
@@ -291,212 +299,6 @@
                                       data-drupal-link-system-path="node/15130"
                                       >Germanwatch Foundation</a
                                     >
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <button
-                          class="submenu-close position-absolute top-0 start-0 end-0 bottom-0 z-n1"
-                        >
-                          <span class="visually-hidden">Close submenu</span>
-                        </button>
-                      </div>
-                    </li>
-                    <li
-                      class="nav-item menu-item--expanded header-height menu-item--expanded-level-0"
-                    >
-                      <button
-                        class="nav-link nav-link- fw-bold px-xl-10 px-xxl-16 d-flex align-items-center h-100 pb-10 submenu-toggle"
-                        aria-label="Open submenu"
-                      >
-                        Topics
-                      </button>
-                      <div
-                        class="submenu-container position-fixed below-header start-0 end-0 bottom-0 active-fade"
-                      >
-                        <div class="bg-light submenu-content">
-                          <div class="container">
-                            <div class="submenu py-48 row">
-                              <div class="offset-xl-1 col-xl-10">
-                                <ul class="menu menu-level-1">
-                                  <li
-                                    class="nav-item menu-item--expanded d-inline-grid w-100 pb-10"
-                                  >
-                                    <a
-                                      href="en/climate.html"
-                                      class="nav-link nav-link--en-climate d-flex align-items-center h-100 pt-10 link-primary pb-0 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/11"
-                                      >Climate</a
-                                    >
-                                    <ul
-                                      class="menu menu-level-2 d-grid fs-5 gap-2 list-unstyled"
-                                    >
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/un-climate-conferences.html"
-                                          class="nav-link nav-link--en-un-climate-conferences pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/45"
-                                          >UN climate talks</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/dealing-impacts-climate-change.html"
-                                          class="nav-link nav-link--en-dealing-impacts-climate-change pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/1479"
-                                          >Dealing with the impacts of climate
-                                          change</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/german-climate-policy-and-energy-transition.html"
-                                          class="nav-link nav-link--en-german-climate-policy-and-energy-transition pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/434"
-                                          >German climate policy and energy
-                                          transition</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/mobility-transition.html"
-                                          class="nav-link nav-link--en-mobility-transition pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/1480"
-                                          >Mobility transition</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/eu-climate-policy-and-carbon-pricing.html"
-                                          class="nav-link nav-link--en-eu-climate-policy-and-carbon-pricing pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/49"
-                                          >EU climate policy and carbon
-                                          pricing</a
-                                        >
-                                      </li>
-                                      <li class="nav-item menu-item--collapsed">
-                                        <a
-                                          href="en/international-climate-co-operation.html"
-                                          class="nav-link nav-link--en-international-climate-co-operation pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/43"
-                                          >International climate co-operation</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/industrial-transformation.html"
-                                          class="nav-link nav-link--en-industrial-transformation pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/1481"
-                                          >Industrial transformation</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/climate-finance.html"
-                                          class="nav-link nav-link--en-climate-finance pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/51"
-                                          >Climate finance</a
-                                        >
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <li
-                                    class="nav-item menu-item--expanded d-inline-grid w-100 pb-10"
-                                  >
-                                    <a
-                                      href="en/economy-finance-trade.html"
-                                      class="nav-link nav-link--en-economy-finance-trade d-flex align-items-center h-100 pt-10 link-primary pb-0 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/1482"
-                                      >Economy, Finance &amp; Trade</a
-                                    >
-                                    <ul
-                                      class="menu menu-level-2 d-grid fs-5 gap-2 list-unstyled"
-                                    >
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/sustainable-finance.html"
-                                          class="nav-link nav-link--en-sustainable-finance pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/1483"
-                                          >Sustainable finance</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/corporate-accountability.html"
-                                          class="nav-link nav-link--en-corporate-accountability pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/55"
-                                          >Corporate accountability</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/global-trade.html"
-                                          class="nav-link nav-link--en-global-trade pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="taxonomy/term/392"
-                                          >Global trade</a
-                                        >
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <li
-                                    class="nav-item menu-item--expanded d-inline-grid w-100"
-                                  >
-                                    <a
-                                      href="en/food-and-agriculture.html"
-                                      class="nav-link nav-link--en-food-and-agriculture d-flex align-items-center h-100 pt-10 link-primary pb-10 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/52"
-                                      >Food &amp; Agriculture</a
-                                    >
-                                  </li>
-                                  <li
-                                    class="nav-item menu-item--expanded d-inline-grid w-100"
-                                  >
-                                    <a
-                                      href="en/education-sustainable-development.html"
-                                      class="nav-link nav-link--en-education-sustainable-development d-flex align-items-center h-100 pt-10 link-primary pb-10 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/95"
-                                      >Education for Sustainable Development</a
-                                    >
-                                  </li>
-                                  <li class="nav-item d-inline-grid w-100">
-                                    <a
-                                      href="en/future-proof-digitalisation.html"
-                                      class="nav-link nav-link--en-future-proof-digitalisation pt-10 link-primary pb-10 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/1295"
-                                      >Future-proof Digitalisation</a
-                                    >
-                                  </li>
-                                  <li
-                                    class="nav-item menu-item--expanded d-inline-grid w-100 pb-10"
-                                  >
-                                    <a
-                                      href="en/climate-litigation.html"
-                                      class="nav-link nav-link--en-climate-litigation d-flex align-items-center h-100 pt-10 link-primary pb-0 px-0 fw-semibold"
-                                      data-drupal-link-system-path="taxonomy/term/1485"
-                                      >Climate Litigation</a
-                                    >
-                                    <ul
-                                      class="menu menu-level-2 d-grid fs-5 gap-2 list-unstyled"
-                                    >
-                                      <li class="nav-item">
-                                        <a
-                                          href="https://www.germanwatch.org/en/node/91122"
-                                          class="nav-link nav-link--en-node-91122 pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="node/91122"
-                                          >Constitutional complaint</a
-                                        >
-                                      </li>
-                                      <li class="nav-item">
-                                        <a
-                                          href="en/climate-case-saul-versus-rwe.html"
-                                          class="nav-link nav-link--en-climate-case-saul-versus-rwe pb-10 px-0 fw-semibold fs-6 py-3"
-                                          data-drupal-link-system-path="node/15619"
-                                          >The Climate Case: Saúl versus RWE</a
-                                        >
-                                      </li>
-                                    </ul>
                                   </li>
                                 </ul>
                               </div>
@@ -664,14 +466,7 @@
                         </button>
                       </div>
                     </li>
-                    <li class="nav-item">
-                      <a
-                        href="en/donations.html"
-                        class="btn btn-donate fs-5"
-                        data-drupal-link-system-path="node/14509"
-                        >Donate now</a
-                      >
-                    </li>
+                    
                   </ul>
                 </nav>
               </div>
@@ -711,96 +506,6 @@
                     ></i>
                   </button>
                 </div>
-              </div>
-              <div
-                id="block-language-switcher"
-                class="block block-lang-dropdown block-language-dropdown-blocklanguage-interface"
-              >
-                <form
-                  class="lang-dropdown-form lang_dropdown_form clearfix language_interface"
-                  id="lang_dropdown_form_lang-dropdown-form"
-                  data-drupal-selector="lang-dropdown-form-2"
-                  action="https://www.germanwatch.org/en"
-                  method="post"
-                  accept-charset="UTF-8"
-                >
-                  <div
-                    class="js-form-item form-item js-form-type-select form-type-select js-form-item-lang-dropdown-select form-item-lang-dropdown-select form-no-label"
-                  >
-                    <label
-                      for="edit-lang-dropdown-select"
-                      class="visually-hidden"
-                      >Select your language</label
-                    >
-                    <select
-                      style="width: 95px"
-                      class="lang-dropdown-select-element form-select form-control"
-                      data-lang-dropdown-id="lang-dropdown-form"
-                      data-drupal-selector="edit-lang-dropdown-select"
-                      id="edit-lang-dropdown-select"
-                      name="lang_dropdown_select"
-                    >
-                      <option value="de">de</option>
-                      <option value="en" selected="selected">en</option>
-                      <option value="fr">fr</option>
-                      <option value="es">es</option>
-                    </select>
-                  </div>
-
-                  <input
-                    data-drupal-selector="edit-de"
-                    type="hidden"
-                    name="de"
-                    value="/de/startseite"
-                  />
-
-                  <input
-                    data-drupal-selector="edit-en"
-                    type="hidden"
-                    name="en"
-                    value="/en/startseite"
-                  />
-
-                  <input
-                    data-drupal-selector="edit-fr"
-                    type="hidden"
-                    name="fr"
-                    value="/fr/accueil"
-                  />
-
-                  <input
-                    data-drupal-selector="edit-es"
-                    type="hidden"
-                    name="es"
-                    value="/es/inicio"
-                  />
-
-                  <noscript
-                    ><div>
-                      <input
-                        data-drupal-selector="edit-submit"
-                        type="submit"
-                        id="edit-submit"
-                        name="op"
-                        value="Go"
-                        class="button js-form-submit form-submit btn btn-primary"
-                      /></div
-                  ></noscript>
-                  <input
-                    autocomplete="off"
-                    data-drupal-selector="form-ocehm8ku35byjvazihv-y6gqxrmm3eevxtmgwqjxwqy"
-                    type="hidden"
-                    name="form_build_id"
-                    value="form-oceHm8kU35BYJVAZIhv_y6GqXrMm3eEVXtMgwqjXwQY"
-                  />
-
-                  <input
-                    data-drupal-selector="edit-lang-dropdown-form"
-                    type="hidden"
-                    name="form_id"
-                    value="lang_dropdown_form"
-                  />
-                </form>
               </div>
               <div
                 class="views-exposed-form views-exposed-form-search-page-search bef-exposed-form block block-views block-views-exposed-filter-blocksearch-page-search below-header bg-light py-16 active-fade"
@@ -966,143 +671,7 @@
                           </ul>
                         </li>
 
-                        <li
-                          class="menu-link cheeseburger-menu__item main__item cheeseburger-parent"
-                        >
-                          <span
-                            class="cheeseburger-menu__item-label"
-                            data-cheeseburger-parent-trigger
-                          >
-                            <span>Topics</span>
-                          </span>
-
-                          <span
-                            class="cheeseburger-menu__submenu-trigger"
-                            data-cheeseburger-parent-trigger
-                            ><span
-                              class="cheeseburger-menu__submenu-trigger-icon dropdown"
-                            ></span
-                          ></span>
-                          <ul class="cheeseburger-menu__submenu">
-                            <li
-                              class="menu-link cheeseburger-menu__item main__item cheeseburger-parent"
-                            >
-                              <a
-                                class="cheeseburger-menu__item-label"
-                                href="en/climate.html"
-                              >
-                                <span>Climate</span>
-                              </a>
-
-                              <span
-                                class="cheeseburger-menu__submenu-trigger"
-                                data-cheeseburger-parent-trigger
-                                ><span
-                                  class="cheeseburger-menu__submenu-trigger-icon dropdown"
-                                ></span
-                              ></span>
-                              <ul class="cheeseburger-menu__submenu">
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/un-climate-conferences.html"
-                                  >
-                                    <span>UN climate talks</span>
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/dealing-impacts-climate-change.html"
-                                  >
-                                    <span
-                                      >Dealing with the impacts of climate
-                                      change</span
-                                    >
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/german-climate-policy-and-energy-transition.html"
-                                  >
-                                    <span
-                                      >German climate policy and energy
-                                      transition</span
-                                    >
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/mobility-transition.html"
-                                  >
-                                    <span>Mobility transition</span>
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/eu-climate-policy-and-carbon-pricing.html"
-                                  >
-                                    <span
-                                      >EU climate policy and carbon
-                                      pricing</span
-                                    >
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/international-climate-co-operation.html"
-                                  >
-                                    <span
-                                      >International climate co-operation</span
-                                    >
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/industrial-transformation.html"
-                                  >
-                                    <span>Industrial transformation</span>
-                                  </a>
-                                </li>
-
-                                <li
-                                  class="menu-link cheeseburger-menu__item main__item"
-                                >
-                                  <a
-                                    class="cheeseburger-menu__item-label"
-                                    href="en/climate-finance.html"
-                                  >
-                                    <span>Climate finance</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </li>
-
+                        
                             <li
                               class="menu-link cheeseburger-menu__item main__item cheeseburger-parent"
                             >
@@ -1426,18 +995,11 @@
                             style="left: 90px"
                           >
                             <div class="bg-primary text-white p-32 pb-16">
-                              <h1 class="text-white">Monitor. Analyze. Act.</h1>
+                              <h1 class="text-white">Plan. Develop. Monitor.</h1>
 
                               <div class="fs-20">
                                 <p>
-                                  Development Monitors is a global,
-                                  interdisciplinary consulting company employing
-                                  engineers, economists, and social scientists
-                                  working across multiple fields and sectors:
-                                  agriculture, disaster risk management,
-                                  climate-resilient infrastructure, open-source
-                                  hardware and software, remote sensing, water
-                                  resource management.
+                                  Development Monitors is an interdisciplinary consulting company that designs and implements sustainable solutions across multiple fields and sectors. We also leverage low-cost and open-source hardware and soft-ware that can be maintained by our local partners.​
                                 </p>
                               </div>
                             </div>
@@ -1474,6 +1036,7 @@
                                     class="text-center paragraph paragraph--type--heading paragraph--view-mode--default"
                                   >
                                     <h2>What We Do - Project Focus Areas</h2>
+                                    <p><b>Development Monitors </b> provides donors and governments with a range of core services in multiple fields, including agriculture; water resources and disaster risk management; water supply diagnostic and decision support; drone-based community assessment; climate-resilient infrastructure; low-carbon development; value chain assessment; and water supply and sanitation, solid waste management, and school infrastructure technical assessments.​</p>
                                   </div>
                                   <div
                                     class="paragraph paragraph--type--card-gallery paragraph--view-mode--default"
@@ -1515,7 +1078,7 @@
                                                             <img
                                                               loading="lazy"
                                                               class="border border-primary card-img-top img-fluid image-style-card-sm"
-                                                              src="sites/img/agr.png"
+                                                              src="sites/img/agr2.png"
                                                               width="535"
                                                               height="268"
                                                               alt="Eine Kuhherde in einer Dürrenlandschaft"
@@ -1593,7 +1156,7 @@
                                                             <img
                                                               loading="lazy"
                                                               class="border border-primary card-img-top img-fluid image-style-card-sm"
-                                                              src="sites/img/nep.png"
+                                                              src="sites/img/wrm.png"
                                                               width="535"
                                                               height="268"
                                                               alt="The Climate Case: Saúl vs. RWE"
@@ -1634,7 +1197,7 @@
                                                             groundwork for
                                                             further watershed
                                                             management planning
-                                                            was conducted.​
+                                                            was conducted.
                                                           </p>
                                                         </div>
                                                       </div>
@@ -1669,7 +1232,7 @@
                                                             <img
                                                               loading="lazy"
                                                               class="border border-primary card-img-top img-fluid image-style-card-sm"
-                                                              src="sites/img/flood.png"
+                                                              src="sites/img/flood2.png"
                                                               width="535"
                                                               height="268"
                                                               alt="Ein Berg mit Schnee und Windrädern vor blauem Himmel"
@@ -1742,7 +1305,7 @@
                                                             <img
                                                               loading="lazy"
                                                               class="border border-primary card-img-top img-fluid image-style-card-sm"
-                                                              src="sites/default/files/styles/card_sm/public/titelbild_landingpage_kopie6b30.webp?itok=eg-FZ9ND"
+                                                              src="sites/img/ddst.png"
                                                               width="535"
                                                               height="268"
                                                               alt="Skyline der Stadt Baku"
@@ -1758,9 +1321,7 @@
                                                       >
                                                         <span
                                                           class="field field--name-title field--type-string field--label-hidden"
-                                                          >COP29: UN Climate
-                                                          Talks in Baku
-                                                          2024</span
+                                                          >Water Supply Diagnostic and Decision Support</span
                                                         >
                                                       </h3>
                                                       <div class="lh-base fs-5">
@@ -1768,24 +1329,9 @@
                                                           class="text-formatted d-inline-all field field--name-field-header-text field--type-text-long field--label-hidden field__item"
                                                         >
                                                           <p>
-                                                            The 29<sup>th</sup>
-                                                            UN climate talks
-                                                            took place in Baku
-                                                            in November 2024.
-                                                            Germanwatch was on
-                                                            site. Read our
-                                                            background stories,
-                                                            press releases, and
-                                                            blog posts on the
-                                                            climate conference
-                                                            in times of multiple
-                                                            crises.
+                                                            The objective of this World Bank assignment was to i) develop and pilot a diagnostic and decision support tool for planning, maintaining, and restoring water supply systems in very high seismic risk zones in Aizawl and Shimla, India, and ii) support knowledge-sharing of the tools among SAR countries and relevant stakeholders.​
                                                           </p>
                                                         </div>
-
-                                                        <i
-                                                          class="ms-10 fa-solid fa-arrow-right-long text-primary teaser-hover-indicator"
-                                                        ></i>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -1818,7 +1364,7 @@
                                                             <img
                                                               loading="lazy"
                                                               class="border border-primary card-img-top img-fluid image-style-card-sm"
-                                                              src="sites/default/files/styles/card_sm/public/neuer_header_zukunftsklagec1c9.webp?itok=KsjIj3Kf"
+                                                              src="sites/img/rms.png"
                                                               width="535"
                                                               height="268"
                                                               alt="Viele Zukunftskläger:innen stehen vor dem Kanzleramt"
@@ -1834,9 +1380,7 @@
                                                       >
                                                         <span
                                                           class="field field--name-title field--type-string field--label-hidden"
-                                                          >Securing the
-                                                          Fundamental Rights of
-                                                          Tomorrow</span
+                                                          >Remote Monitoring, Sensing, and Verification</span
                                                         >
                                                       </h3>
                                                       <div class="lh-base fs-5">
@@ -1845,27 +1389,254 @@
                                                         >
                                                           <p>
                                                             <span
-                                                              >Along with more
-                                                              than
-                                                              54,000&nbsp;claimants,
-                                                              we are taking the
-                                                              German government
-                                                              to court. We are
-                                                              demanding a
-                                                              national climate
-                                                              policy
-                                                              that&nbsp;protects&nbsp;fundamental
-                                                              rights and
-                                                              liberties today
-                                                              and in the
-                                                              future.</span
+                                                              >The German Bank for Reconstruction (KfW) study had two two objectives: i) Inform KfW management on the strategic opportunities and limitations of using remote monitoring, sensing, and verification approaches in fragile and conflict-affected areas, and ii) Provide KfW staff with guidance to use remote monitoring, sensing, and verification methods and tools.​</span
                                                             >
                                                           </p>
                                                         </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </a>
+                                              </article>
+                                            </li>
+                                            <li
+                                              class="splide__slide slide slide--4"
+                                            >
+                                              <article
+                                                class="node node--type-page node--promoted node--view-mode-card max-width-xs"
+                                              >
+                                                <a
+                                                  href="https://www.germanwatch.org/en/node/91122"
+                                                  class="card text-decoration-none link-dark teaser-hover-parent"
+                                                >
+                                                  <div class="card">
+                                                    <div
+                                                      class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"
+                                                    >
+                                                      <div
+                                                        class="media media--type-image media--view-mode-card"
+                                                      >
+                                                        <div
+                                                          class="position-relative d-inline-block"
+                                                        >
+                                                          <div
+                                                            class="field field--name-field-media-image field--type-image field--label-hidden field__item"
+                                                          >
+                                                            <img
+                                                              loading="lazy"
+                                                              class="border border-primary card-img-top img-fluid image-style-card-sm"
+                                                              src="sites/img/dr.png"
+                                                              width="535"
+                                                              height="268"
+                                                              alt="Viele Zukunftskläger:innen stehen vor dem Kanzleramt"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
 
-                                                        <i
-                                                          class="ms-10 fa-solid fa-arrow-right-long text-primary teaser-hover-indicator"
-                                                        ></i>
+                                                    <div class="card-body">
+                                                      <h3
+                                                        class="card-title h4 fw-semibold"
+                                                      >
+                                                        <span
+                                                          class="field field--name-title field--type-string field--label-hidden"
+                                                          >Drone-based Community Assessment and Disaster Risk Management</span
+                                                        >
+                                                      </h3>
+                                                      <div class="lh-base fs-5">
+                                                        <div
+                                                          class="text-formatted d-inline-all field field--name-field-header-text field--type-text-long field--label-hidden field__item"
+                                                        >
+                                                          <p>
+                                                            <span
+                                                              >In this research project conducted with the Virginia Tech Uncrewed Systems Lab, a drone was used to capture aerial imagery of an area and reconstructed to produce three-dimensional models, Digital Elevation Models, and stitched orthophotos for flood modeling and damage assessment.</span
+                                                            >
+                                                          </p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </a>
+                                              </article>
+                                            </li>
+                                            <li
+                                              class="splide__slide slide slide--4"
+                                            >
+                                              <article
+                                                class="node node--type-page node--promoted node--view-mode-card max-width-xs"
+                                              >
+                                                <a
+                                                  href="https://www.germanwatch.org/en/node/91122"
+                                                  class="card text-decoration-none link-dark teaser-hover-parent"
+                                                >
+                                                  <div class="card">
+                                                    <div
+                                                      class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"
+                                                    >
+                                                      <div
+                                                        class="media media--type-image media--view-mode-card"
+                                                      >
+                                                        <div
+                                                          class="position-relative d-inline-block"
+                                                        >
+                                                          <div
+                                                            class="field field--name-field-media-image field--type-image field--label-hidden field__item"
+                                                          >
+                                                            <img
+                                                              loading="lazy"
+                                                              class="border border-primary card-img-top img-fluid image-style-card-sm"
+                                                              src="sites/img/cri.png"
+                                                              width="535"
+                                                              height="268"
+                                                              alt="Viele Zukunftskläger:innen stehen vor dem Kanzleramt"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                      <h3
+                                                        class="card-title h4 fw-semibold"
+                                                      >
+                                                        <span
+                                                          class="field field--name-title field--type-string field--label-hidden"
+                                                          >Climate-resilient Infrastructure</span
+                                                        >
+                                                      </h3>
+                                                      <div class="lh-base fs-5">
+                                                        <div
+                                                          class="text-formatted d-inline-all field field--name-field-header-text field--type-text-long field--label-hidden field__item"
+                                                        >
+                                                          <p>
+                                                            <span
+                                                              >The key tasks in this two-year World Bank assignment were i) Review climate risk assessments for seven Yemen cities, ii) Identify climate-resilient infrastructure development approaches that mitigate effects on vulnerable population, and iii) Prepare pre-feasibility and invest-ment studies that show a "proof of concept" for technical, social, envi-ronmental, and economic aspects.</span
+                                                            >
+                                                          </p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </a>
+                                              </article>
+                                            </li>
+                                            <li
+                                              class="splide__slide slide slide--4"
+                                            >
+                                              <article
+                                                class="node node--type-page node--promoted node--view-mode-card max-width-xs"
+                                              >
+                                                <a
+                                                  href="https://www.germanwatch.org/en/node/91122"
+                                                  class="card text-decoration-none link-dark teaser-hover-parent"
+                                                >
+                                                  <div class="card">
+                                                    <div
+                                                      class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"
+                                                    >
+                                                      <div
+                                                        class="media media--type-image media--view-mode-card"
+                                                      >
+                                                        <div
+                                                          class="position-relative d-inline-block"
+                                                        >
+                                                          <div
+                                                            class="field field--name-field-media-image field--type-image field--label-hidden field__item"
+                                                          >
+                                                            <img
+                                                              loading="lazy"
+                                                              class="border border-primary card-img-top img-fluid image-style-card-sm"
+                                                              src="sites/img/lcd.png"
+                                                              width="535"
+                                                              height="268"
+                                                              alt="Viele Zukunftskläger:innen stehen vor dem Kanzleramt"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                      <h3
+                                                        class="card-title h4 fw-semibold"
+                                                      >
+                                                        <span
+                                                          class="field field--name-title field--type-string field--label-hidden"
+                                                          >Low Carbon Development</span
+                                                        >
+                                                      </h3>
+                                                      <div class="lh-base fs-5">
+                                                        <div
+                                                          class="text-formatted d-inline-all field field--name-field-header-text field--type-text-long field--label-hidden field__item"
+                                                        >
+                                                          <p>
+                                                            <span
+                                                              >In this World Bank Yemen assignment, we i) obtained sectoral data/inputs in water and sanitation, urban mobility, solid waste management, energy and housing sectors required for the World Bank CURB tool, and ii) carried out inclusive and gender segregated community consultation to revalidate the prioritized low carbon development interventions proposed by the World Bank.</span
+                                                            >
+                                                          </p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </a>
+                                              </article>
+                                            </li>
+                                            <li
+                                              class="splide__slide slide slide--4"
+                                            >
+                                              <article
+                                                class="node node--type-page node--promoted node--view-mode-card max-width-xs"
+                                              >
+                                                <a
+                                                  href="https://www.germanwatch.org/en/node/91122"
+                                                  class="card text-decoration-none link-dark teaser-hover-parent"
+                                                >
+                                                  <div class="card">
+                                                    <div
+                                                      class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"
+                                                    >
+                                                      <div
+                                                        class="media media--type-image media--view-mode-card"
+                                                      >
+                                                        <div
+                                                          class="position-relative d-inline-block"
+                                                        >
+                                                          <div
+                                                            class="field field--name-field-media-image field--type-image field--label-hidden field__item"
+                                                          >
+                                                            <img
+                                                              loading="lazy"
+                                                              class="border border-primary card-img-top img-fluid image-style-card-sm"
+                                                              src="sites/img/see.png"
+                                                              width="535"
+                                                              height="268"
+                                                              alt="Viele Zukunftskläger:innen stehen vor dem Kanzleramt"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                      <h3
+                                                        class="card-title h4 fw-semibold"
+                                                      >
+                                                        <span
+                                                          class="field field--name-title field--type-string field--label-hidden"
+                                                          >School Infrastructure Evaluation</span
+                                                        >
+                                                      </h3>
+                                                      <div class="lh-base fs-5">
+                                                        <div
+                                                          class="text-formatted d-inline-all field field--name-field-header-text field--type-text-long field--label-hidden field__item"
+                                                        >
+                                                          <p>
+                                                            <span
+                                                              >The primary objectives of this World Bank Afghanistan assignment was to i) provide a technical and economic analysis on the retrofitting of 42 existing schools, priori-tized by Government of Afghanistan, ii) leverage the multi-hazard risk assessment and government data on existing schools to develop retrofitting guidelines for other schools found at risk of natural hazards, and (iii) build client capacity to assess and retrofit schools.​</span
+                                                            >
+                                                          </p>
+                                                        </div>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -2319,6 +2090,41 @@
                           </div>
                         </div>
                       </div>
+                      <div class="field__item">
+                        <div
+                          class="paragraph paragraph--type--layout paragraph--view-mode--default"
+                        >
+                          <div
+                            class="full-width py-40 bg-light border-none layout-content-10-col layout layout--onecol gx-0"
+                          >
+                            <div class="container">
+                              <div class="row">
+                                <div
+                                  class="row-gap-40 bg-none border-none layout__region layout__region--content d-flex flex-column"
+                                >
+                                  <div
+                                    class="text-center paragraph paragraph--type--heading paragraph--view-mode--default"
+                                  >
+                                    <h2>Where We Work</h2>
+                                    <p>Since 2018, Development Monitors has implemented 12 prime contracts in five countries in the Middle East and Central/South Asia regions for the <a href="https://www.worldbank.org/ext/en/home" >World Bank</a> and the <a href="https://www.kfw.de/kfw.de-2.html">German Bank for Reconstruction</a> (Kreditanstallt fuer Wiederaufbau) along with a two-year research grant from <a href="https://usl.me.vt.edu/">Virginia Tech Uncrewed Systems Lab</a> in Blacksburg, Virginia, USA. Development Monitors has offices in Arlington, Virginia, USA near World Bank headquarters and in Delhi, India.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="field__item">
+                        <div
+                          class="paragraph paragraph--type--layout paragraph--view-mode--default d-flex justify-content-center"
+                        >
+                          <div style="width: 80%; height:500px" id="map">
+  
+</div>
+
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </article>
@@ -2443,7 +2249,7 @@
             <div
               class="col-md-3 col-lg-5 offset-xl-1 col-xl-5 offset-xxl-3 col-xxl-4"
             >
-            
+
               <div class="region region-footer-second">
                 <nav
                   aria-labelledby="block-footer-menu-menu"
@@ -2494,6 +2300,18 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
+    <style>
+  .legend {
+    background: white;
+    padding: 10px;
+    line-height: 1.5;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size: 14px;
+  }
+</style>
+
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">
       {
