@@ -55,11 +55,10 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - Afghanistan</b><br><br>
       Community-Based Disaster Risk Management and Early Warning Activity, 2019 to 2021, World Bank<br>
-      <i>Team Lead: Ms. Arati Belle</i><br><br>
+      <br><br>
       Technical Assistance for School Infrastructure Delivery in Afghanistan, 2018 to 2020, World Bank<br>
-      <i>Team Lead: Ms. Ditte Fallesen</i><br><br>
+      <br><br>
       Disaster Risk Management Training for Government Officials, 2019, World Bank<br>
-      <i>Team Lead: Ms. Ditte Fallesen</i>
     `
   },
   {
@@ -67,7 +66,6 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - Germany</b><br><br>
       Remote Management, Monitoring, and Verification Study, 2017-2018, German Bank for Reconstruction<br>
-      <i>Team Lead: Mr. Michael Gruber</i>
     `
   },
   {
@@ -75,7 +73,6 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - India</b><br><br>
       Development of quality infrastructure diagnostic and planning toolkits for water supply systems in high-risk zones in India, 2022 to 2023, World Bank<br>
-      <i>Task Team Lead: Mr. Anup Karanth</i>
     `
   },
   {
@@ -83,7 +80,6 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - Nepal</b><br><br>
       Kickstarting Watershed Management Activities in Birendranagar, Nepal, 2024 to 2025, World Bank<br>
-      <i>Team Lead: Ms. Amelia Midgley</i>
     `
   },
   {
@@ -91,7 +87,6 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - USA</b><br><br>
       Development of a disaster risk assessment and recovery technology using low-cost UAVs, 2021 to 2023, Virginia Tech Uncrewed Systems Lab<br>
-      <i>Director: Professor Kevin Kochersberger</i>
     `
   },
   {
@@ -99,17 +94,16 @@ var projectHighlights = [
     popup: `
       <b>Development Monitors Past Projects - Yemen</b><br><br>
       Yemen Agriculture Sector Study for Food and Nutrition Security – Economic Analysis, 2024 to 2025, World Bank<br>
-      <i>Team Lead: Mr. Artavazd Hakobyan</i><br><br>
+      <br><br>
       Sustainability and resilience assessment of water and sanitation schemes in Yemen, 2023 to 2024, World Bank<br>
-      <i>Team Lead: Mr. Naif Abu-Lohom</i><br><br>
+      <br><br>
       Enhancing the quality of climate-resilient infrastructure design approaches in seven Yemen Cities, 2022 to 2023, World Bank<br>
-      <i>Team Lead: Mr. Hogeun Park</i><br><br>
+      <br><br>
       Planning for Future Climate-resilient and Low-Carbon Development in the Urban Context in Aden, Yemen, 2022, World Bank<br>
-      <i>Team Lead: Ms. Emily Owen</i><br><br>
+      <br><br>
       Solid Waste Management and Gender Assessments for Yemen Integrated Urban Services Emergency Project II, 2022, World Bank<br>
-      <i>Team Lead: Mr. Hogeun Park</i><br><br>
+      <br><br>
       Bringing Back Business in Yemen - Construction Sector Assessment, 2018 to 2019, World Bank<br>
-      <i>Team Lead: Sami Sofan</i>
     `
   }
 ];
