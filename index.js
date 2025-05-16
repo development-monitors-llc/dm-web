@@ -69,7 +69,7 @@ var projectHighlights = [
     `
   },
   {
-    coords: [20.5937, 78.9629], // India
+    coords: [23.7307, 92.7173], // India
     popup: `
       <b>Development Monitors Past Projects - India</b><br><br>
       Development of quality infrastructure diagnostic and planning toolkits for water supply systems in high-risk zones in India, 2022 to 2023, World Bank<br>
