@@ -5423,7 +5423,7 @@ button.link:hover {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: var(--bs-nav-link-hover-color);
   background: 0 0;
   border: 0;
   text-decoration: none;
@@ -5441,7 +5441,7 @@ button.link:hover {
 .media-library-view--widget .view-header a:hover,
 .nav-link:focus,
 .media-library-view--widget .view-header a:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: var(--bs-nav-link-color);
 }
 .nav-link:focus-visible,
 .media-library-view--widget .view-header a:focus-visible {
