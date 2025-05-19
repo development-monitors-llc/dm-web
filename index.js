@@ -83,7 +83,7 @@ var projectHighlights = [
     `
   },
   {
-    coords: [37.0902, -95.7129], // USA
+    coords: [37.190341, -77.831601], // USA
     popup: `
       <b>Development Monitors Past Projects - USA</b><br><br>
       Development of a disaster risk assessment and recovery technology using low-cost UAVs, 2021 to 2023, Virginia Tech Uncrewed Systems Lab<br>
